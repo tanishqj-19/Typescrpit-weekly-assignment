@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Contact Us | GUVI</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="GUVI Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a  href="#home">Courses</a></li>
+            <li class="dropdown">
+                <a href="#more" class="dropbtn">LIVE Classes</a>
+                    <div class="dropdown-content">
+                        <a href="#codekata">
+                            <div class="head">
+                                IIT-M Pravartak Certified Full Stack <br> Development Program (FSD)
+                            </div>
+                            <div class="desc">
+                                Learn Javascript, HTML, CSS, Java, Data Structure, MongoDB & more
+                            </div>
+                        </a>
+                        <a href="#codekata">
+                            <div class="head">
+                                IIT-M Pravartak Certified Data Science Program
+                            </div>
+                            <div class="desc">
+                                Learn Python, Machine Learning, NLP, Tableau, PowerBI & more
+                            </div>
+                        </a>
+                        <a href="#codekata">
+                            <div class="head">
+                                Automation & Testing Program
+                            </div>
+                            <div class="desc">
+                                Learn Selenium, Python, Java, Jenkins, Jmeter, API Testing & more
+                            </div>
+                        </a>
+                        <a style='color: rgb(41, 196, 41);' ="#contact">Explore More Programs</a>
+                    </div>
+            </li>
+            <li class="dropdown">
+                <a href="#more" class="dropbtn">Practice</a>
+                <div class="dropdown-content">
+                    <a href="#codekata">
+                        <div class="head">
+                            Codekata
+                        </div>
+                        <div class="desc">
+                            Sharpen your coding skills, prepare for interviews
+                        </div>
+                    </a>
+                    <a href="#codekata">
+                        <div class="head">
+                            Webkata
+                        </div>
+                        <div class="desc">
+                            Build basic Frontend and Backend development skills
+                        </div>
+                    </a>
+                    <a href="#codekata">
+                        <div class="head">
+                            Debugging
+                        </div>
+                        <div class="desc">
+                            A series of programs curated by Industry Experts
+                        </div>
+                    </a>
+                    <a href="#codekata">
+                        <div class="head">
+                            IDE - Online Compiler
+                        </div>
+                        <div class="desc">
+                            Run & test your code in any programming language
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#more" class="dropbtn">Resources</a>
+                <div class="dropdown-content">
+                    <a href="#portfolio">Learn Hub <span id="new">New</span></a>
+                    <a href="#contact">Rewards</a>
+                    <a href="#contact">Referal</a>
+                    <a href="#contact">Forum Support</a>
+                    <a href="#contact">Blogs</a>
+                    <a href="#contact">App Download</a>
+                    <a href="#contact">Become an Affiliate</a>
+                </div>
+            </li>
+            <li><a id="login" href="#services">Login</a></li>
+            <li><a id="signup" href="#services">Sign Up</a></li>
+        </ul>
+    </nav>
+    <img id="flower" src="./assets/flower.png" alt="">
+    <img id="flower1" src="./assets/flower.png" alt="">
+
+    
+    <div class="container">
+        <img id="flower2" src="./assets/flower.png" alt="">
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Say <span class="green-text">Hello !</span></h2>
+                <p>Feel free to stop by and say hi</p>
+            </div>
+            <form class="disconnected-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name<span class="mandatory">*</span></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email<span class="mandatory">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number<span class="mandatory">*</span></label>
+                    <input type="tel" id="contact" name="contact" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject<span class="mandatory">*</span></label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message<span class="mandatory">*</span></label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="./dist/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES2015", "DOM"],
+    "strict": true,
+    "outDir": "./dist"      // Remove or modify rootDir to reflect where your .ts files are
+  },
+  "include": [
+    "./**/*.ts"             // Match all .ts files in the current folder and subfolders
+  ]
+}
